@@ -1,6 +1,6 @@
 export const appUrl = {
-    baseUrl: "https://phptravels.net/",
-    dashboardUrl: "https://phptravels.net/dashboard"
+    baseUrl: "/",
+    dashboardUrl: "/dashboard"
 }
 
 export const loginUser = {
