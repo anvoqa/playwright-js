@@ -1,3 +1,5 @@
+[![Playwright Tests](https://github.com/anvoqa/playwright-js/actions/workflows/playwright.yml/badge.svg)](https://github.com/anvoqa/playwright-js/actions/workflows/playwright.yml)
+
 # playwright-js
 
 ## Introduction
