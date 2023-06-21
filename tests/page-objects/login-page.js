@@ -1,5 +1,4 @@
 const { expect } = require('@playwright/test');
-const { DashboardPage } = require('./dashboard-page');
 
 exports.LoginPage = class LoginPage {
 constructor(page){
@@ -7,6 +6,7 @@ constructor(page){
     this.emailTextbox = page.locator("#email");
     this.passwordTextbox = page.locator("#password");
     this.loginButton = page.locator("#submitBTN");
+    this.loginForm = page.locator("#login");
 }
 
 async login(email, password){
