@@ -1,4 +1,5 @@
 exports.HomePage = class HomePage {
+
 constructor(page){
     this.page = page;
     this.accountDropdown = page.locator("//a//strong[contains(text(),'Account')]");

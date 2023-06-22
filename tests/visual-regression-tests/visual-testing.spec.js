@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { loginUser } from './commons/test-data';
-import { appUrl, pageUI } from './commons/global-constants';
-const { HomePage } = require ('./page-objects/home-page');
-const { LoginPage } = require('./page-objects/login-page');
+import { loginUser } from '../../commons/test-data';
+import { appUrl, pageUI } from '../../commons/global-constants';
+const { HomePage } = require('../../page-objects/home-page');
+const { LoginPage } = require('../../page-objects/login-page');
 
 test('Home Page visual tests', async ({ page }) => {
     const homePage = new HomePage(page);
