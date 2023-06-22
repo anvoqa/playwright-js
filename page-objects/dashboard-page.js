@@ -5,9 +5,9 @@ constructor(page){
     this.page = page;
 }
 
-async getUsernameTitle(name){
-    return page.locator("//h6/strong[text()='" + name + "']");
-}
+// async getUsernameTitle(name){
+//     return page.locator("//h6/strong[text()='" + name + "']");
+// }
 
 
 }
