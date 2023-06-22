@@ -29,6 +29,12 @@ jobs:
     if: ${{ github.event.issue.pull_request && github.event.comment.body == '/update-snapshots'}}
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+      
     steps:
       # Checkout and do a deep fetch to load all commit IDs
       - uses: actions/checkout@v2
