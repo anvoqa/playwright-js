@@ -20,3 +20,9 @@ export const pageUI = {
         fullPage: "dashboard-page.png"
     }
 }
+
+export const apiEndPoints = {
+    baseUrl: "https://restful-booker.herokuapp.com",
+    authentication: "/auth",
+    booking: "/booking"
+}
