@@ -1,5 +1,5 @@
 export const appUrl = {
-    homePageUrl: "/",
+    homePageUrl: "",
     loginUrl: "/login",
     dashboardUrl: "/dashboard"
 }

@@ -2,8 +2,8 @@ import { faker } from '@faker-js/faker';
 const { DateTime } = require("luxon");
 
 export const loginUser = {
-    userName: "Playwright Practice",
-    loginEmail: "playwrighttester@phptravels.com",
+    userName: "Demo User",
+    loginEmail: "user@phptravels.com",
     loginPassword: "demouser"
 }
 
