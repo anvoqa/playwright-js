@@ -1,3 +1,24 @@
+/*
+This file contains test to verify that the visual look of pages or important elements/sections match with pre-defined snapshot baselines
+
+Snapshots (baselines) are generated when this class run the first time.
+
+AUT: https://phptravels.net/ (this base url is added to playwright.config.js file)
+
+Test cases:
+
+ 1. Homepage:
+  - Searchbox section
+  - Featured Hotels section
+  - Featured Flights section
+  - Featured Tours section
+  - Recommended Cars section
+
+ 2. Login page: Login form
+ 
+ 3. Dashboard page: full page
+*/
+
 import { test, expect } from '@playwright/test';
 import { loginUser } from '../../commons/test-data';
 import { appUrl, pageUI } from '../../commons/global-constants';
