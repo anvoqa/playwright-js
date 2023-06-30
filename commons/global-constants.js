@@ -21,6 +21,10 @@ export const pageUI = {
     }
 }
 
+export const accessibilityKnownIssuesSnapShots = {
+    searchBox: "search-box-a11y-known-issues.txt"
+}
+
 export const apiEndPoints = {
     baseUrl: "https://restful-booker.herokuapp.com",
     authentication: "/auth",

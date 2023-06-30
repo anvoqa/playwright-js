@@ -25,7 +25,7 @@ import { appUrl, pageUI } from '../../commons/global-constants';
 const { HomePage } = require('../../page-objects/home-page');
 const { LoginPage } = require('../../page-objects/login-page');
 
-test('Home Page visual tests', async ({ page }) => {
+test('Home Page @visual-tests', async ({ page }) => {
     const homePage = new HomePage(page);
     await page.goto(appUrl.homePageUrl);
     await expect(homePage.searchBox).toHaveScreenshot(pageUI.homePage.searchBox);
@@ -35,13 +35,13 @@ test('Home Page visual tests', async ({ page }) => {
     await expect(homePage.recommendedCarsSection).toHaveScreenshot(pageUI.homePage.recommendedCars);
 });
 
-test('Login Page visual test - Login form', async ({ page }) => {
+test('Login Page @visual-tests - Login form', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await page.goto(appUrl.loginUrl);
     await expect(loginPage.loginForm).toHaveScreenshot(pageUI.loginPage.loginForm);
   });
 
-  test('Dashboard Page visual test', async ({ page }) => {
+  test('Dashboard Page @visual-tests', async ({ page }) => {
     //Pre-condition: Login
     const loginPage = new LoginPage(page);
     await page.goto(appUrl.loginUrl);
