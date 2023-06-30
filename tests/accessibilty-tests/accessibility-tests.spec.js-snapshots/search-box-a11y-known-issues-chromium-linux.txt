@@ -1,0 +1,90 @@
+[
+  {
+    "rule": "aria-valid-attr-value",
+    "targets": [
+      [
+        "button[data-bs-target=\"#tab-flights\"]"
+      ]
+    ]
+  },
+  {
+    "rule": "button-name",
+    "targets": [
+      [
+        "#onereturn > .col-md-1 > .search_button.btn-primary.btn-m"
+      ]
+    ]
+  },
+  {
+    "rule": "duplicate-id-active",
+    "targets": [
+      [
+        "#tab-flights > .content.search_box"
+      ],
+      [
+        ".depart"
+      ]
+    ]
+  },
+  {
+    "rule": "duplicate-id-aria",
+    "targets": [
+      [
+        "span[data-select2-id=\"2\"] > .selection > .select2-selection.select2-selection--single[aria-labelledby=\"select2--container\"] > .select2-selection__rendered[title=\"Select City\"][role=\"textbox\"]"
+      ]
+    ]
+  },
+  {
+    "rule": "duplicate-id",
+    "targets": [
+      [
+        ".nav"
+      ],
+      [
+        ".from_flights > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"]"
+      ],
+      [
+        ".from_flights > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"] > g"
+      ],
+      [
+        ".from_flights > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"] > g > g"
+      ],
+      [
+        ".from_flights > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"] > g > g > path[fill-rule=\"nonzero\"]"
+      ],
+      [
+        ".from_flights > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"] > g > g > path[fill=\"#09244B\"]"
+      ],
+      [
+        ".flights_arrival > .show.active > svg[version=\"1.1\"][width=\"18\"][height=\"18\"] > g[stroke=\"none\"][fill-rule=\"evenodd\"][stroke-width=\"1\"] > g > g"
+      ],
+      [
+        ".col-md-4:nth-child(2) > .form-floating.show.active > .dp[name=\"date\"][readonly=\"readonly\"]"
+      ]
+    ]
+  },
+  {
+    "rule": "label",
+    "targets": [
+      [
+        ".depart"
+      ]
+    ]
+  },
+  {
+    "rule": "select-name",
+    "targets": [
+      [
+        "#flight_type"
+      ]
+    ]
+  },
+  {
+    "rule": "svg-img-alt",
+    "targets": [
+      [
+        "#onereturn > .col-md-1 > .search_button.btn-primary.btn-m > .c8LPF-icon[viewBox=\"0 0 200 200\"][role=\"img\"]"
+      ]
+    ]
+  }
+]
